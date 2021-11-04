@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{83e48443-48b5-4256-9aee-65efc877e479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{ed689adb-92a9-42b1-ba6d-eb865383a47c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Phenotype">
+      <UniqueIdentifier>{9a79b0c4-5b88-4c30-8e39-617d1a51ceef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Phenotype">
+      <UniqueIdentifier>{b43bb407-cc73-41fd-99f3-8cfeeff50981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Genotype">
+      <UniqueIdentifier>{11b35af1-feb3-4b19-a037-6ccd9dd6e373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Simulation">
+      <UniqueIdentifier>{711f07c8-e1e9-486a-88c2-96e9b3970c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Genotype">
+      <UniqueIdentifier>{0b3d028e-7e36-4d31-bbde-14826cbbeb98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Simulation">
+      <UniqueIdentifier>{d625d284-4974-4bfa-aafd-2eb0ba5b4a01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector2d.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNetwork.h">
+      <Filter>Header Files\Phenotype</Filter>
+    </ClInclude>
+    <ClInclude Include="Neuron.h">
+      <Filter>Header Files\Phenotype</Filter>
+    </ClInclude>
+    <ClInclude Include="Link.h">
+      <Filter>Header Files\Phenotype</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceConversion.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuronType.h">
+      <Filter>Header Files\Phenotype</Filter>
+    </ClInclude>
+    <ClInclude Include="Collisions.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Genes.h">
+      <Filter>Header Files\Genotype</Filter>
+    </ClInclude>
+    <ClInclude Include="Genome.h">
+      <Filter>Header Files\Genotype</Filter>
+    </ClInclude>
+    <ClInclude Include="Evolver.h">
+      <Filter>Header Files\Genotype</Filter>
+    </ClInclude>
+    <ClInclude Include="Innovation.h">
+      <Filter>Header Files\Genotype</Filter>
+    </ClInclude>
+    <ClInclude Include="Species.h">
+      <Filter>Header Files\Genotype</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="Racetrack.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulator.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="Params.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Link.cpp">
+      <Filter>Source Files\Phenotype</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuralNetwork.cpp">
+      <Filter>Source Files\Phenotype</Filter>
+    </ClCompile>
+    <ClCompile Include="Neuron.cpp">
+      <Filter>Source Files\Phenotype</Filter>
+    </ClCompile>
+    <ClCompile Include="Collisions.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceConversion.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Genome.cpp">
+      <Filter>Source Files\Genotype</Filter>
+    </ClCompile>
+    <ClCompile Include="Innovation.cpp">
+      <Filter>Source Files\Genotype</Filter>
+    </ClCompile>
+    <ClCompile Include="Species.cpp">
+      <Filter>Source Files\Genotype</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Racetrack.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulator.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Evolver.cpp">
+      <Filter>Source Files\Genotype</Filter>
+    </ClCompile>
+    <ClCompile Include="Params.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
